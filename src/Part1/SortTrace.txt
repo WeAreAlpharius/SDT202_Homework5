@@ -1,0 +1,142 @@
+Array: [S H E L L S O R T R O C K ]: 13 elements
+
+k = 3n+1 = 10, n = 3
+
+10-sort:
+[S H E L L S O R T R O C K ]
+ ^                   ^ swap
+
+[O H E L L S O R T R S C K ]
+   ^                   ^ swap
+
+[O C E L L S O R T R S H K ]
+     ^                   ^
+
+k = k/3 = 10/3 = 3
+
+3-sort:
+[O C E L L S O R T R S H K ]
+ ^     ^ swap
+
+[L C E O L S O R T R S H K ]
+   ^     ^
+
+[L C E O L S O R T R S H K ]
+     ^     ^
+
+[L C E O L S O R T R S H K ]
+       ^     ^
+
+[L C E O L S O R T R S H K ]
+         ^     ^
+
+[L C E O L S O R T R S H K ]
+           ^     ^swap
+
+[L C E O L T O R S R S H K ]
+     ^     ^
+
+[L C E O L T O R S R S H K ]
+             ^     ^
+
+[L C E O L T O R S R S H K ]
+               ^     ^swap
+
+[L C E O L T O S S R R H K ]
+         ^     ^
+
+[L C E O L T O S S R R H K ]
+                 ^     ^swap
+
+[L C E O L T O S H R R S K ]
+           ^     ^swap
+
+[L C E O L H O S T R R S K ]
+     ^     ^
+
+[L C E O L H O S T R R S K ]
+                   ^     ^swap
+
+[L C E O L H O S T K R S R ]
+             ^     ^swap
+
+[L C E O L H K S T O R S R ]
+       ^     ^swap
+
+[L C E K L H O S T O R S R ]
+ ^     ^swap
+
+k = 3/3 = 1
+
+1-sort:
+[K C E L L H O S T O R S R ]
+ ^ ^ swap
+
+[C K E L L H O S T O R S R ]
+   ^ ^ swap
+
+[C E K L L H O S T O R S R ]
+ ^ ^
+
+[C E K L L H O S T O R S R ]
+     ^ ^
+
+[C E K L L H O S T O R S R ]
+       ^ ^
+
+[C E K L L H O S T O R S R ]
+         ^ ^swap
+
+[C E K L H L O S T O R S R ]
+       ^ ^swap
+
+[C E K H L L O S T O R S R ]
+     ^ ^swap
+
+[C E H K L L O S T O R S R ]
+   ^ ^
+
+[C E H K L L O S T O R S R ]
+           ^ ^
+
+[C E H K L L O S T O R S R ]
+             ^ ^
+
+[C E H K L L O S T O R S R ]
+               ^ ^
+
+[C E H K L L O S T O R S R ]
+                 ^ ^swap
+
+[C E H K L L O S O T R S R ]
+               ^ ^swap
+
+[C E H K L L O O S T R S R ]
+             ^ ^
+
+[C E H K L L O O S T R S R ]
+                   ^ ^swap
+
+[C E H K L L O O S R T S R ]
+                 ^ ^swap
+
+[C E H K L L O O R S T S R ]
+               ^ ^
+
+[C E H K L L O O R S T S R ]
+                     ^ ^swap
+
+[C E H K L L O O R S S T R ]
+                   ^ ^swap
+
+[C E H K L L O O R S S T R ]
+                       ^ ^swap
+
+[C E H K L L O O R S S R T ]
+                     ^ ^swap
+
+[C E H K L L O O R S R S T ]
+                   ^ ^swap
+
+[C E H K L L O O R R S S T ]
+                 ^ ^
